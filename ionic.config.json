@@ -1,0 +1,7 @@
+{
+  "name": "ground-hog",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
