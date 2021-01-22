@@ -6,10 +6,15 @@ import LandingPage from './pages/landingPage/landingPage';
 import WelcomePage from './pages/welcomePage/welcomePage';
 import UserSignUp from './pages/user/userSignUpPage/userSignUpPage';
 import RiderSignUp from './pages/rider/riderSignUpPage/riderSignUpPage';
-import Login from './pages/loginPage/loginpage'
+import CompanySignUp from './pages/company/companySignUp/companySignUpPage';
+import CompanyLogin from './pages/company/companyLoginPage/companyLoginPage'
+import RiderLogin from './pages/rider/riderLoginPage/riderLoginPage'
+import UserLogin from './pages/user/userLoginPage/userLoginPage'
 import UserMain from './pages/user/userMainPage/userMain';
 import RiderMain from './pages/rider/riderMainPage/riderMain';
 import UserSideMenu from './components/userSideMenu/userSideMenu';
+import CompanyMain from './pages/company/companyPage/companyMain';
+//import CompanySideMenu from './pages/company/companySignUp/companySignUpPage';
 import RiderSideMenu from './components/riderSideMenu/riderSideMenu';
 
 
@@ -39,10 +44,15 @@ const App: React.FC = () => (
           <IonRouterOutlet>
           <Route path="/" component={LandingPage} exact={true} />
             <Route path="/welcome" component={WelcomePage} exact={true} />
-            
+            <Route path="/userMain" component={UserMain} exact={true} />
+            <Route path="/riderMain" component={RiderMain} exact={true} />   
+            <Route path="/companyMain" component={CompanyMain} exact={true} />   
             <Route path="/userSignUp" component={UserSignUp} exact={true} />
             <Route path="/RiderSignUp" component={RiderSignUp} exact={true} />
-            <Route path="/login" component={Login} exact={true} />
+            <Route path="/CompanySignUp" component={CompanySignUp} exact={true} />
+            <Route path="/userlogin" component={UserLogin} exact={true} />
+            <Route path="/riderlogin" component={RiderLogin} exact={true} />
+            <Route path="/companylogin" component={CompanyLogin} exact={true} />
           </IonRouterOutlet>      
     </IonReactRouter>
   </IonApp>

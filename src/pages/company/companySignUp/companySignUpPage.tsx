@@ -7,9 +7,9 @@ import React from 'react';
 //      } from '@ionic/react';
 import { IonHeader, IonToolbar, IonTitle, IonContent, IonPage, IonButtons, IonMenuButton, IonRow, IonCol, IonButton, IonList, IonItem, IonLabel, IonInput, IonText, IonBackButton } from '@ionic/react';
 
-import './userSignUpPage.css'
+import './companySignUpPage.css'
 
-class UserSignUp extends React.Component{
+class CompanySignUp extends React.Component{
     render(){
         return(
         <IonPage id="login-page">
@@ -31,7 +31,7 @@ class UserSignUp extends React.Component{
                 <IonList>
                     <IonItem>
                     
-                    <IonInput name="firstname" type="text" placeholder="First Name" spellCheck={false} autocapitalize="off"
+                    <IonInput name="companyname" type="text" placeholder="Company Name" spellCheck={false} autocapitalize="off"
                         required>
                     </IonInput>
                     </IonItem>
@@ -41,18 +41,7 @@ class UserSignUp extends React.Component{
                         First name is required
                     </p>
                     </IonText> */}
-                    <IonItem>
                     
-                    <IonInput name="lastname" type="text" placeholder="Last Name" spellCheck={false} autocapitalize="off"
-                        required>
-                    </IonInput>
-                    </IonItem>
-
-                    {/* <IonText color="danger">
-                    <p className="ion-padding-start">
-                        Last Name is required
-                    </p>
-                    </IonText> */}
                     <IonItem>
                     
                     <IonInput name="email" type="text" placeholder="Email" spellCheck={false} autocapitalize="off"
@@ -94,7 +83,7 @@ class UserSignUp extends React.Component{
                 <IonRow>
 
                     <IonCol> 
-                    <IonButton routerLink="/userMain" color="success" expand="block">Signup</IonButton>
+                    <IonButton routerLink="/comapanyMain" color="success" expand="block">Signup</IonButton>
                     </IonCol>
                 </IonRow>
                 </form>
@@ -124,4 +113,4 @@ class UserSignUp extends React.Component{
     }
 
 
-export default UserSignUp;
+export default CompanySignUp;

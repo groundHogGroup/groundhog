@@ -8,9 +8,9 @@ import { IonHeader,IonBackButton,
         IonInput, IonText, 
          } from '@ionic/react';
 
-import './loginpage.css'
+import './companyLoginPage.css'
 
-class Login extends React.Component{
+class CompanyLogin extends React.Component{
     render(){
 
         return(
@@ -105,4 +105,4 @@ class Login extends React.Component{
 }
 
 
-export default Login
+export default CompanyLogin

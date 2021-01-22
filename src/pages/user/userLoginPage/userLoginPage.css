@@ -1,0 +1,19 @@
+.contain{
+    background-color: #38D39F;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.group{
+    height: 70vh;
+    text-align: center;
+    padding-top: 10vh;
+    color: white;
+}
+
+#forgotPassword{
+    text-align: right;
+    padding-right: 2%;
+    font-size: 0.9rem;
+}

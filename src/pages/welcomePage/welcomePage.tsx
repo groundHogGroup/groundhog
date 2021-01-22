@@ -22,7 +22,8 @@ class WelcomePage extends React.Component{
     
                          <IonButton  routerLink="/userSignUp" className="SignUpAsBtn" fill="outline" color="light" expand="block">User</IonButton>
                          <IonButton routerLink="/riderSignUp"className="SignUpAsBtn" fill="outline" color="light" expand="block">Rider</IonButton>
-                         <IonButton  className="SignUpAsBtn" fill="outline" color="light" expand="block">Company</IonButton>
+                         <IonButton routerLink="/companySignUp"className="SignUpAsBtn" fill="outline" color="light" expand="block">Company</IonButton>
+                        
 
                          <div className="terms">
                             <h4>Terms Of Service</h4>
