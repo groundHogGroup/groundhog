@@ -1,0 +1,17 @@
+/* #menu_button{
+    position: absolute;
+    width: 10%;
+    height: 40px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+}
+
+#mnu_btn{
+    font-size: 2rem;
+} */
+
+#map{
+    height: 90Vh;
+    border: 1px solid red;
+}

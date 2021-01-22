@@ -1,0 +1,41 @@
+.welcomeBody{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+}
+.header{
+    width: 100vw;
+    height: 10vh;
+    color: #38D39F;
+    padding: 6%;
+    font-size: 1.6rem;
+
+}
+
+.signUpAs{
+    background-color: #38D39F;
+    width: 100vw;
+    height: 85vh;
+    border-top-left-radius: 10%;
+   
+}
+/* .SignUpAsBtn{
+   margin: 40px 0;
+   
+} */
+
+.SignUpAsText{
+    text-align: center;
+    color: white;
+    padding: 60px 0;
+}
+
+.terms{
+    text-align: center;
+}
+
+.privacy{
+    color: white;
+
+}

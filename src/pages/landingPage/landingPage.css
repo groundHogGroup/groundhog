@@ -1,0 +1,29 @@
+.fullPage{
+    background-color: #38D39F;
+    width: 100vw;
+    height: 100vh;
+}
+
+.firstHalf{
+    background-color: white;
+    width: 100vw;
+    height: 83vh;
+    border-bottom-left-radius: 12%;
+    border-bottom-right-radius: 12%;
+    text-align: center;
+    padding-top: 12vh;
+}
+
+.secondHalf{
+    padding: 20px 10px;
+}
+
+.FhHeading{
+    color: #38D39F;
+    font-size: 2.3rem;
+}
+
+#lp{
+    margin-top: 5vh;
+    width: 70%;
+}
